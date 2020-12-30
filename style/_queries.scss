@@ -1,0 +1,10 @@
+@media (max-width:1430px){
+      main{
+            background:red;
+            grid-template-columns:repeat(2, 1fr);
+            // grid-template-rows:repeat(3, 1fr);         
+            grid-template-areas:"daniel jonathan"
+            "jeanette patrick"
+            "kira kira";
+      }
+};

@@ -1,0 +1,114 @@
+#daniel{
+      grid-area:daniel;
+      // grid-column-start: 1;
+      // grid-column-end: 3;
+      // grid-row-start: 1;
+      // grid-row-end: 2;
+      background: $violet;
+      #avatar{
+            border-color: rgba(255, 255, 255, .5);
+      }
+      h1{
+            color:white;
+            font-weight:600;
+      }
+      h3{
+            color:white;
+      }
+      h4{
+            color:rgba(255, 255, 255, 0.7);
+            font-weight:500;
+      }
+}
+
+#jeanette{
+      grid-area:jeanette;
+      // grid-column-start: 1;
+      // grid-column-end: 2;
+      // grid-row-start: 2;
+      // grid-row-end: 3;
+      background: white;
+      #avatar{
+            border-color: rgba(175, 175, 175, 0.514);
+      }
+      h1{
+            color:$grayishBlue;
+            font-weight:600;
+      }
+      h3{
+            color:$grayishBlue;
+      }
+      h4{
+            color:hsl(217, 19%, 65%);
+            font-weight:500;
+      }
+}
+
+#jonathan{
+      grid-area:jonathan;
+      // grid-column-start: 3;
+      // grid-column-end: 4;
+      // grid-row-start: 1;
+      // grid-row-end: 2;
+      background: $grayishBlue;
+      #avatar{
+            border-color: rgba(255, 255, 255, .5);
+      }
+      h1{
+            color:white;
+            font-weight:600;
+      }
+      h3{
+            color:white;
+      }
+      h4{
+            color:rgba(255, 255, 255, 0.5);
+            font-weight:500;
+      }
+}
+
+#patrick{
+      grid-area:patrick;
+      // grid-column-start: 2;
+      // grid-column-end: 4;
+      // grid-row-start: 2;
+      // grid-row-end: 3;
+      background: $blackishBlue;
+      #avatar{
+            border-color: $violet;
+      }
+      h1{
+            color:white;
+            font-weight:600;
+      }
+      h3{
+            color:white;
+      }
+      h4{
+            color:rgba(255, 255, 255, 0.7);
+            font-weight:500;
+      }
+}
+
+#kira{
+      grid-area:kira;
+      // grid-column-start: 4;
+      // grid-column-end: 5;
+      // grid-row-start: 1;
+      // grid-row-end: 3;
+      background: white;
+      #avatar{
+            border-color: rgba(146, 146, 146, 0.5);
+      }
+      h1{
+            color:$grayishBlue;
+            font-weight:600;
+      }
+      h3{
+            color:$grayishBlue;
+      }
+      h4{
+            color:hsl(217, 19%, 65%);
+            font-weight:500;
+      }
+}

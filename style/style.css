@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+#daniel {
+  grid-area: daniel;
+  background: #7541c8;
+}
+#daniel #avatar {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+#daniel h1 {
+  color: white;
+  font-weight: 600;
+}
+#daniel h3 {
+  color: white;
+}
+#daniel h4 {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+
+#jeanette {
+  grid-area: jeanette;
+  background: white;
+}
+#jeanette #avatar {
+  border-color: rgba(175, 175, 175, 0.514);
+}
+#jeanette h1 {
+  color: #48556a;
+  font-weight: 600;
+}
+#jeanette h3 {
+  color: #48556a;
+}
+#jeanette h4 {
+  color: #95a2b7;
+  font-weight: 500;
+}
+
+#jonathan {
+  grid-area: jonathan;
+  background: #48556a;
+}
+#jonathan #avatar {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+#jonathan h1 {
+  color: white;
+  font-weight: 600;
+}
+#jonathan h3 {
+  color: white;
+}
+#jonathan h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+}
+
+#patrick {
+  grid-area: patrick;
+  background: #19212e;
+}
+#patrick #avatar {
+  border-color: #7541c8;
+}
+#patrick h1 {
+  color: white;
+  font-weight: 600;
+}
+#patrick h3 {
+  color: white;
+}
+#patrick h4 {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+
+#kira {
+  grid-area: kira;
+  background: white;
+}
+#kira #avatar {
+  border-color: rgba(146, 146, 146, 0.5);
+}
+#kira h1 {
+  color: #48556a;
+  font-weight: 600;
+}
+#kira h3 {
+  color: #48556a;
+}
+#kira h4 {
+  color: #95a2b7;
+  font-weight: 500;
+}
+
+@media (max-width: 1430px) {
+  main {
+    background: red;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "daniel jonathan" "jeanette patrick" "kira kira";
+  }
+}
+* {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #EDF2F8;
+  padding: 2rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  grid-template-areas: "daniel daniel jonathan kira" "jeanette patrick patrick kira";
+}
+
+.grid-card {
+  position: relative;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 20px 25px 50px #9c9c9c2c;
+}
+
+#persona {
+  display: flex;
+  margin: 0 0 25px 0;
+  user-select: none;
+}
+
+#avatar {
+  margin: auto 0;
+  border-radius: 50%;
+  border-width: 3px;
+  border-style: solid;
+}
+
+#name-job {
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 25px;
+}
+
+#quote-bg {
+  user-select: none;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  z-index: 0;
+  width: 150px;
+}
+
+.quote {
+  opacity: 0.7;
+  margin: 25px 0;
+}
+
+.card-content {
+  margin: auto 0;
+  position: relative;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=style.css.map */

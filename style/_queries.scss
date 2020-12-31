@@ -12,9 +12,9 @@
             margin:4rem 8rem;
             grid-template-columns:repeat(2, 1fr);
             // grid-template-rows:repeat(3, 1fr);         
-            grid-template-areas:"daniel jonathan"
-            "jeanette patrick"
-            "kira kira";
+            // grid-template-areas:"daniel jonathan"
+            // "jeanette patrick"
+            // "kira kira";
       }
       #daniel{
             grid-column: 1/3;

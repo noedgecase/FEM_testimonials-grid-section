@@ -1,11 +1,5 @@
 #daniel{
-      grid-column: 1/3;
-      grid-row: 1/2;
-      // grid-area:daniel;
-      // grid-column-start: 1;
-      // grid-column-end: 3;
-      // grid-row-start: 1;
-      // grid-row-end: 2;
+      grid-area:daniel;
       background: $violet;
       .avatar{
             border-color: rgba(255, 255, 255, .5);
@@ -23,14 +17,8 @@
       }
 }
 
-#jeanette{
-      grid-column: 1/2;
-      grid-row: 2/3;     
-      // grid-area:jeanette;
-      // grid-column-start: 1;
-      // grid-column-end: 2;
-      // grid-row-start: 2;
-      // grid-row-end: 3;
+#jeanette{   
+      grid-area:jeanette;
       background: white;
       .avatar{
             border-color: rgba(175, 175, 175, 0.514);
@@ -49,13 +37,7 @@
 }
 
 #jonathan{
-      grid-column: 3/4;
-      grid-row: 1/2;
-      // grid-area:jonathan;
-      // grid-column-start: 3;
-      // grid-column-end: 4;
-      // grid-row-start: 1;
-      // grid-row-end: 2;
+      grid-area:jonathan;
       background: $grayishBlue;
       .avatar{
             border-color: rgba(255, 255, 255, .5);
@@ -74,13 +56,7 @@
 }
 
 #patrick{
-      grid-column: 2/4;
-      grid-row: 2/3;
-      // grid-area:patrick;
-      // grid-column-start: 2;
-      // grid-column-end: 4;
-      // grid-row-start: 2;
-      // grid-row-end: 3;
+      grid-area:patrick;
       background: $blackishBlue;
       .avatar{
             border-color: $violet;
@@ -99,13 +75,7 @@
 }
 
 #kira{
-      grid-column: 4/5;
-      grid-row: 1/3;
-      // grid-area:kira;
-      // grid-column-start: 4;
-      // grid-column-end: 5;
-      // grid-row-start: 1;
-      // grid-row-end: 3;
+      grid-area:kira;
       background: white;
       .avatar{
             border-color: rgba(146, 146, 146, 0.5);

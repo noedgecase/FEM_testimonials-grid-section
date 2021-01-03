@@ -7,7 +7,6 @@ $lightGray: hsl(0, 0%, 81%);
 $lightBlue: hsl(210, 46%, 95%);
 
 @import 'people';
-@import 'queries';
 
 *{
       h1{
@@ -30,18 +29,18 @@ body{
 }
 
 main{
-      // display:grid;
+      display:grid;
       grid-gap:1.5rem;
       grid-template-columns:repeat(4, 1fr);
-      // grid-template-rows:1fr 1fr;
-      // grid-template-areas:"daniel daniel jonathan kira"
-      // "jeanette patrick patrick kira";
+      grid-template-rows:1fr 1fr;
+      grid-template-areas:"daniel daniel jonathan kira"
+      "jeanette patrick patrick kira";
 }
 
 .grid-card{
       position:relative;
       border-radius:20px;
-      padding:2.5rem;
+      padding:2rem;
       box-shadow: 20px 25px 50px #9c9c9c2c;
 }
 
@@ -85,3 +84,5 @@ main{
       position:relative;
       z-index:1;
 }
+
+@import 'queries';
